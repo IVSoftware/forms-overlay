@@ -18,7 +18,6 @@ namespace forms_overlay
             _overlayForm = new OverlayForm(this);
             _overlayForm.Show(); // Avoid setting owner with 'this'.
         }
-
         private readonly OverlayForm _overlayForm;
     }
 }
